@@ -44,17 +44,10 @@ This project investigates the relationship between air quality (measured through
 ## Technical Requirements
 - **Dependencies**:
   - `pandas`, `numpy`, `scikit-learn`, `statsmodels`, `matplotlib`
-- **Scripts**:
-  - `data_preprocessing.py`: Cleans and merges datasets.
-  - `causal_analysis.py`: Implements propensity score weighting and outcome regression.
-  - `predictive_modeling.py`: Builds and evaluates GLMs and Random Forest models.
 - **How to Run**:
   1. Clone the repository.
-  2. Download the required datasets into the `data/` folder.
-  3. Install dependencies using `pip install -r requirements.txt`.
-  4. Run analyses:
-     - Causal analysis: `python causal_analysis.py`
-     - Predictive modeling: `python predictive_modeling.py`
+  2. Download the required datasets and notebook into the `Final Code\` folder.
+  3. Run all cells in the notebook sequentially
 
 ## Recommendations
 - Advocate for policies targeting high-risk counties with poor air quality.
